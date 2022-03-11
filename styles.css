@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 780px) {
+  body {
+    background-color: saddlebrown;
+  }
+}
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.my-list {
+  padding: 5px;
+  justify-content: center;
+}
+
+.my-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.furniture {
+  color: black;
+}
+
+.page-wrapper {
+  background-color: white;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .page-main {
+}
+
+.page-footer {
+} */
+
+.logo {
+  padding: 20px;
+  flex-grow: 1;
+}
