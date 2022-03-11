@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+/* @media screen and (min-width: 780px) {
+  body {
+    background-color: saddlebrown;
+  }
+} */
+.my-list {
+  list-style: none;
+}
+
+.page-wrapper {
+}
+
+.page-header {
+}
+
+.page-main {
+}
+
+.page-footer {
+}
+
+.ricca {
+}
