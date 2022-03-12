@@ -59,10 +59,6 @@ body {
   align-items: center;
   padding: 15px;
 }
-.list-footer a {
-  text-decoration: none;
-  color: black;
-}
 
 .logo {
   padding: 20px;
@@ -73,9 +69,12 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
+  width: 45.96px;
+  height: 14.78px;
 }
 
 h4 {
   display: flex;
   justify-content: center;
+  size: 16px;
 }
