@@ -3,12 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-@media screen and (min-width: 780px) {
-  body {
-    background-color: saddlebrown;
-  }
-}
-
 .nav {
   list-style: none;
   display: flex;
@@ -116,21 +110,63 @@ h4 {
 }
 
 .card-holder {
-  padding: 10px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .chair-picture {
   display: flex;
   flex-direction: column;
 }
 .chair-details {
+  display: flex;
   box-shadow: 0px 15px 30px 7px #e5e5e5;
+  flex-direction: column;
+  padding: 25px;
+}
+.chair-name {
+  display: flex;
+  font-size: 38px;
+}
+.chair-description {
+  display: none;
+}
+.real-price {
+  text-decoration: line-through;
+  color: #8c8c8c;
+  font-size: 28px;
+}
+.current-price {
   flex-grow: 1;
+}
+.info {
+  font-size: 32px;
+  display: flex;
+}
+
+.reverse-card-holder {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
-.chair-name {
-  display: flex;
+
+.products {
+  flex-direction: column;
 }
+
+.load-more {
+  background-color: #c48b98;
+  padding: 20px;
+  margin: 20px;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media screen and (min-width: 780px) {
+  body {
+    
+  }
+} */
