@@ -103,10 +103,11 @@ body {
   height: 14.78px;
 }
 
-h4 {
+.footer-info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  size: 16px;
+  align-items: center;
 }
 
 .card-holder {
@@ -165,8 +166,18 @@ h4 {
   align-items: center;
 }
 
-/* @media screen and (min-width: 780px) {
-  body {
-    
+@media screen and (min-width: 780px) {
+  .page-header {
+    flex-direction: row;
   }
-} */
+  .nav {
+    flex-direction: row;
+    display: flex;
+  }
+  .my-list {
+    padding: 20px;
+  }
+  .white-border {
+    width: 560px;
+  }
+}
