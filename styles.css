@@ -178,6 +178,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* width: 374; */
 }
 
 @media screen and (min-width: 700px) {
@@ -193,7 +194,7 @@ body {
   }
 
   .footer-info {
-    padding: 50px;
+    /* padding: 50px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -206,10 +207,20 @@ body {
   .list-footer {
     align-items: flex-start;
     justify-content: space-between;
+    padding: 0px;
+  }
+  .list-footer a {
+    padding: 0px;
   }
 
   .footer-my-list {
     justify-content: space-between;
+    padding: 0px;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+    width: auto;
   }
 
   .white-border {
@@ -231,6 +242,8 @@ body {
     flex-direction: row;
     max-height: 327px;
     display: flex;
+    /* width: 791px; */
+    justify-content: center;
   }
 
   img {
@@ -241,5 +254,11 @@ body {
     display: flex;
     flex-direction: row-reverse;
     max-height: 327px;
+    justify-content: center;
+    /* width: 791px; */
+  }
+  .products {
+  }
+  .chair-name {
   }
 }
