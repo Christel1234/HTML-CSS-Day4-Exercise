@@ -215,4 +215,31 @@ body {
   .white-border {
     width: 560px;
   }
+
+  .chair-description {
+    display: flex;
+    flex-grow: 1;
+    font-size: 22px;
+
+    height: 42.17322540283203px;
+    width: 296.9563903808594px;
+    left: 46.302734375px;
+    top: 122.78759765625px;
+  }
+
+  .card-holder {
+    flex-direction: row;
+    max-height: 327px;
+    display: flex;
+  }
+
+  img {
+    max-height: 327px;
+  }
+
+  .reverse-card-holder {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 327px;
+  }
 }
