@@ -76,7 +76,6 @@ body {
 }
 
 .pink-button {
-  border: 2px solid var(--primary);
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -119,6 +118,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.footer-heading {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .card-holder {
@@ -177,7 +181,7 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 700px) {
   .page-header {
     flex-direction: row;
   }
@@ -187,5 +191,25 @@ body {
   }
   .my-list {
     padding: 20px;
+  }
+
+  .footer-info {
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer-heading {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .list-footer {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-my-list {
+    justify-content: space-between;
   }
 }
