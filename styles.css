@@ -66,7 +66,6 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -211,5 +210,9 @@ body {
 
   .footer-my-list {
     justify-content: space-between;
+  }
+
+  .white-border {
+    width: 560px;
   }
 }
