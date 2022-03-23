@@ -176,14 +176,19 @@ body {
 }
 
 .load-more {
-  background-color: #c48b98;
   padding: 20px;
-  margin: 20px;
   font-size: 22px;
   color: white;
-  display: flex;
+  background-color: #c48b98;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 374px;
+}
+.load-more-block {
   justify-content: center;
-  align-items: center;
+  display: flex;
+  padding: 30px;
 }
 
 @media screen and (min-width: 700px) {
@@ -247,7 +252,6 @@ body {
     flex-direction: row;
     max-height: 327px;
     display: flex;
-    /* width: 791px; */
     justify-content: center;
   }
 
