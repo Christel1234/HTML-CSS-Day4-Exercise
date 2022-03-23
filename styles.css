@@ -31,6 +31,9 @@ body {
 .footer-my-list a {
   text-decoration: none;
   color: black;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
 }
 
 .page-wrapper {
@@ -153,6 +156,9 @@ body {
 }
 .current-price {
   flex-grow: 1;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
 }
 .info {
   font-size: 32px;
@@ -178,7 +184,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 374; */
 }
 
 @media screen and (min-width: 700px) {
@@ -194,10 +199,10 @@ body {
   }
 
   .footer-info {
-    /* padding: 50px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
   }
   .footer-heading {
     align-items: flex-start;
@@ -220,7 +225,7 @@ body {
 
   .footer-container {
     justify-content: space-between;
-    width: auto;
+    padding: 60px;
   }
 
   .white-border {
@@ -255,10 +260,5 @@ body {
     flex-direction: row-reverse;
     max-height: 327px;
     justify-content: center;
-    /* width: 791px; */
-  }
-  .products {
-  }
-  .chair-name {
   }
 }
